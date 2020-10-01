@@ -1,0 +1,88 @@
+.hari, .time-awal, .time-akhir {
+  width : 25%!important;
+}
+
+.hari{
+  margin-right: 10px;
+}
+
+.input-group-jam{
+    margin-bottom : 10px;
+    min-height: 34px;
+}
+
+.loading-container {
+    display: none;
+    position: absolute; 
+    height: 110%; 
+    width : 100%; 
+    left: 0; 
+    top:-10%; 
+    z-index: 10000;
+}
+
+.loading-content{
+    position: absolute; 
+    height: 100%; 
+    width : 100%; 
+    left: 0; 
+    top:0; 
+    background-color : #555555; 
+    opacity: 0.5
+}
+
+.loading-box{
+    padding :15px; 
+    position : absolute; 
+    left: 30%; 
+    top: 30%; 
+    background-color: #eeeeee; 
+    font-size: 40px; 
+    width : 40%; 
+    height: auto; 
+    opacity: 1;
+}
+
+.loading-a::after {
+    animation : loading-a 3s linear infinite alternate;
+    -webkit-animation: loading-a 3s linear infinite alternate;
+    -moz-animation: loading-a 3s linear infinite alternate;
+}
+
+@-webkit-keyframes loading-a {
+    0% {
+        content : ".";
+    }
+    50%{
+        content : "..";
+    }
+    100% {
+        content :"...";
+    }
+  }
+
+  @-moz-keyframes loading-a {
+    0% {
+      content : '.';
+    }
+    50%{
+      content : "..";
+    }
+    100% {
+      content :"...";
+    }
+  };
+
+  @keyframes loading-a {
+    0% {
+      content : '.';
+    }
+    50%{
+      content : "..";
+    }
+    100% {
+      content :"...";
+    }
+  };
+
+		

@@ -1,0 +1,734 @@
+*:not(.fa){
+  font-family:'Neo Sans TR Medium'!important;
+}
+
+html, body{
+  overflow: hidden;
+  height:100%;
+  width: 100%;
+  background: url('../../assets/antum/bg_home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+
+}
+
+.header{
+  margin: 0px;
+  text-align: center;
+  z-index: 1000;
+}
+.header:after{
+  box-shadow: 0px 10px black;
+}
+
+
+.content{
+  overflow-y: scroll;
+}
+
+.footer{
+  height: 8%;
+  position: absolute;
+  z-index: 9;
+}
+
+@-webkit-keyframes bounce {
+  to { -webkit-transform: scale(1.1); }
+}
+@-moz-keyframes bounce {
+  to { -moz-transform: scale(1.1); }
+}
+@keyframes bounce {
+  to { transform: scale(1.1); }
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 480px) {  
+
+  .logo_header_home {
+    max-width: 40%;
+    height: auto;
+    margin-top: 13px;
+    /* margin-left: 8px; */
+    float: left;
+  }
+
+  .logo_kanan {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    margin-top: 193px;
+    margin-left: -90px;
+    float: right;
+    /*max-width: 30%;
+    height: auto;
+    margin-top: 13px;*/
+    /* margin-left: 8px; */
+    /*float: right;*/
+  }
+
+  .judul_butik{
+    text-align: left;
+    color: #cc9926;
+    padding-top: 32%;
+    float: left;
+  }
+
+  .title_tombol1{
+    position: absolute;
+    width: 53%;
+    top: 14%;
+    color: #073982;
+    font-size: 10px;
+    font-weight: 800;
+    margin-left: 2%;
+    line-height: 12px;
+  }
+
+  .title_tombol2{
+    position: absolute;
+    top: 56%;
+    color: #073982;
+    font-size: 7px;
+    width: 52%;
+    margin-left: 1%;
+    font-weight: 500;
+    padding-left: 1%;
+    line-height: 9px;
+    background-color: #ffffffb8;
+  }
+
+  .bulat_kuning{
+    position: absolute;
+    width: 20%;
+    left: 67%;
+    top: 13%;
+  }
+
+  .angka_bulat_kuning{
+    position: absolute;
+    width: 19.7%;
+    left: 67%;
+    top: 24%;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .title_antrian{
+    position: absolute;
+    width: 20%;
+    left: 69.5%;
+    top: 76%;
+    font-size: 7px;
+    color: #073982;
+    font-weight: bold;
+  }
+
+  .tombol_pites:active{
+    transform: translateY(6px);
+  }
+
+  .nama_layanan{
+    position: absolute;
+    top: 22px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .total_antrian{
+    position: absolute;
+    top: 44%;
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .bulat_kuning_detail{
+    position: absolute;
+    width: 13%;
+    left: 71%;
+    top: 8%;
+  }
+
+  .angka_bulat_kuning_detail{
+    position: absolute;
+    width: 13.5%;
+    left: 70.5%;
+    top: 12.5%;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+
+  .jml_total{
+    position: absolute;
+    width: 20%;
+    left: 78%;
+    top: 30%;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+  }
+
+  .icon_detail{
+    position: absolute;
+    width: 4%;
+    left: 89.5%;
+    top: 35%;
+  }
+
+  .icon_detail_up{
+    position: absolute;
+    width: 4%;
+    left: 86.5%;
+    top: 7.5%;
+  }
+
+  .kotak_kuning{
+    height: 34px;
+    width: 80%;
+    margin-left: 12px;
+    background-color: #fbcd54;
+    top: 20%;
+    position: absolute;
+    color:white;
+    padding-top: 7px;
+    padding-left: 7px;
+  }
+
+  .nomor_antrian{
+    top: 28%;
+    position: absolute;
+    color: #fbcd54;
+    font-size: 55px;
+    margin-left: 16px;
+  }
+
+  .kotak_biru{
+    height: 34px;
+    width: 80%;
+    margin-left: 12px;
+    background-color: #073982;
+    top: 58%;
+    position: absolute;
+    color:white;
+    padding-top: 7px;
+    padding-left: 7px;
+  }
+
+  .jml_antrian_det{
+    top: 66%;
+    position: absolute;
+    color: #073982;
+    font-size: 55px;
+    margin-left: 16px;
+    font-weight: 800;
+  }
+
+  .title_nama_layanan{
+    position: absolute;
+    top: 4%;
+    color: #000000;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .kotak_hitam{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    padding-top: 7px;
+    padding-left: 7px;
+  }
+
+  .kotak_oren{
+    height: 5vh;
+    width: 100%;
+    margin-left: -7.7px;
+    background-color: #cc9926;
+    margin-top: 28px;
+    position: absolute;
+    color: white;
+    padding-top: 11px;
+    padding-left: 7px;
+  }
+
+  .kotak_puwutih{
+    height: 8vh;
+    width: 100%;
+    margin-left: -7.7px;
+    background-color: white;
+    margin-top: 78px;
+    position: absolute;
+    color: #cc9926;
+    padding-top: 20px;
+    padding-left: 7px;
+    font-size: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .title_header_home{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: italic;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 2px;
+  }
+
+}
+
+.loading-container{
+  height: 11px;
+  width: 45%;
+  position: absolute;
+  border-radius: 10px;
+  border : 1px solid #989898;
+  margin: 71% auto;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+}
+
+.loading-bar{
+  height: 3px;
+  width: 15%;
+  position: absolute;
+  border-radius: 10px;
+  margin: 72% auto;
+  z-index: 9999;
+  background-image: linear-gradient(to right, rgb(204, 153, 38), rgb(204, 153, 38), rgb(204, 153, 38), rgb(204, 153, 38));
+  background-size: 100%;
+  -webkit-animation: Gradient 3s ease infinite;
+  -moz-animation: Gradient 3s ease infinite;
+  animation: Gradient 3s ease infinite;
+}
+
+.check_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius:  5px;
+}
+.radio{
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius:  5px;
+  border-radius: 50%;
+  margin-top : 0!important;
+  margin-bottom : 0!important;
+  position: absolute;
+}
+
+/* On mouse-over, add a grey background color */
+.check_container:hover input ~ .checkmark, .check_container:hover input ~ .radio {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check_container input:checked ~ .checkmark ,.check_container input:checked ~ .radio  {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after,.radio:after{
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.check_container input:checked ~ .checkmark:after, .check_container input:checked ~ .radio:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.check_container .checkmark:after {
+  left: 8px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.check_container .radio:after {
+  top: 6px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.loader {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 100px auto;
+  width: 1vh;
+  height: 1vh;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999vh;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.popup{
+  width: 90%;
+  position: absolute;
+  bottom: -10%;
+  left: 5%;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid steelblue;
+  padding: 10px;border-radius: 10px;
+  text-align: center;
+  z-index:8;
+  display :none;
+}
+
+.popup i{
+  font-size: 1.48em;
+  left: auto;
+  width: 10%;
+  float: left;
+}
+
+
+.popup .popup_content{
+  height: 100%;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.popup.slide-in{
+  -webkit-animation: slide-in 2s forwards;
+  animation: slide-in 2s forwards;
+}
+
+.popup.slide-out{
+  -webkit-animation: slide-out 2s forwards;
+  animation: slide-out 2s forwards;
+}
+
+@keyframes slide-in{
+  0%{
+    bottom: -10%;
+  }
+  100%{
+    bottom: 10%;
+  }
+}
+
+@-webkit-keyframes slide-in{
+  0%{
+    bottom: -10%;
+  }
+
+  100%{
+    bottom: 10%;
+  }
+}
+
+@keyframes slide-out{
+  0%{
+    bottom: 10%;
+  }
+  100%{
+    bottom: -10%;
+  }
+}
+
+@-webkit-keyframes slide-out{
+  0%{
+    bottom: 10%;
+  }
+
+  100%{
+    bottom: -10%;
+  }
+}
+
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3vh 0 0.2vh, 2vh -2vh 0 0vh, 3vh 0 0 -1vh, 2vh 2vh 0 -1vh, 0 3vh 0 -1vh, -2vh 2vh 0 -1vh, -3vh 0 0 -1vh, -2vh -2vh 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3vh 0 0, 2vh -2vh 0 0.2vh, 3vh 0 0 0, 2vh 2vh 0 -1vh, 0 3vh 0 -1vh, -2vh 2vh 0 -1vh, -3vh 0 0 -1vh, -2vh -2vh 0 -1vh;
+  }
+  25% {
+    box-shadow: 0 -3vh 0 -0.5vh, 2vh -2vh 0 0, 3vh 0 0 0.2vh, 2vh 2vh 0 0, 0 3vh 0 -1vh, -2vh 2vh 0 -1vh, -3vh 0 0 -1vh, -2vh -2vh 0 -1vh;
+  }
+  37.5% {
+    box-shadow: 0 -3vh 0 -1vh, 2vh -2vh 0 -1vh, 3vh 0vh 0 0, 2vh 2vh 0 0.2vh, 0 3vh 0 0vh, -2vh 2vh 0 -1vh, -3vh 0vh 0 -1vh, -2vh -2vh 0 -1vh;
+  }
+  50% {
+    box-shadow: 0 -3vh 0 -1vh, 2vh -2vh 0 -1vh, 3vh 0 0 -1vh, 2vh 2vh 0 0vh, 0 3vh 0 0.2vh, -2vh 2vh 0 0, -3vh 0vh 0 -1vh, -2vh -2vh 0 -1vh;
+  }
+  62.5% {
+    box-shadow: 0 -3vh 0 -1vh, 2vh -2vh 0 -1vh, 3vh 0 0 -1vh, 2vh 2vh 0 -1vh, 0 3vh 0 0, -2vh 2vh 0 0.2vh, -3vh 0 0 0, -2vh -2vh 0 -1vh;
+  }
+  75% {
+    box-shadow: 0vh -3vh 0 -1vh, 2vh -2vh 0 -1vh, 3vh 0vh 0 -1vh, 2vh 2vh 0 -1vh, 0 3vh 0 -1vh, -2vh 2vh 0 0, -3vh 0vh 0 0.2vh, -2vh -2vh 0 0;
+  }
+  87.5% {
+    box-shadow: 0vh -3vh 0 0, 2vh -2vh 0 -1vh, 3vh 0 0 -1vh, 2vh 2vh 0 -1vh, 0 3vh 0 -1vh, -2vh 2vh 0 0, -3vh 0vh 0 0, -2vh -2vh 0 0.2vh;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3vh 0 0.2vh, 2vh -2vh 0 0vh, 3vh 0 0 -1vh, 2vh 2vh 0 -1vh, 0 3vh 0 -1vh, -2vh 2vh 0 -1vh, -3vh 0 0 -1vh, -2vh -2vh 0 0;
+  }
+  12.5% {
+    box-shadow: 0 -3vh 0 0, 2vh -2vh 0 0.2vh, 3vh 0 0 0, 2vh 2vh 0 -1vh, 0 3vh 0 -1vh, -2vh 2vh 0 -1vh, -3vh 0 0 -1vh, -2vh -2vh 0 -1vh;
+  }
+  25% {
+    box-shadow: 0 -3vh 0 -0.5vh, 2vh -2vh 0 0, 3vh 0 0 0.2vh, 2vh 2vh 0 0, 0 3vh 0 -1vh, -2vh 2vh 0 -1vh, -3vh 0 0 -1vh, -2vh -2vh 0 -1vh;
+  }
+  37.5% {
+    box-shadow: 0 -3vh 0 -1vh, 2vh -2vh 0 -1vh, 3vh 0vh 0 0, 2vh 2vh 0 0.2vh, 0 3vh 0 0vh, -2vh 2vh 0 -1vh, -3vh 0vh 0 -1vh, -2vh -2vh 0 -1vh;
+  }
+  50% {
+    box-shadow: 0 -3vh 0 -1vh, 2vh -2vh 0 -1vh, 3vh 0 0 -1vh, 2vh 2vh 0 0vh, 0 3vh 0 0.2vh, -2vh 2vh 0 0, -3vh 0vh 0 -1vh, -2vh -2vh 0 -1vh;
+  }
+  62.5% {
+    box-shadow: 0 -3vh 0 -1vh, 2vh -2vh 0 -1vh, 3vh 0 0 -1vh, 2vh 2vh 0 -1vh, 0 3vh 0 0, -2vh 2vh 0 0.2vh, -3vh 0 0 0, -2vh -2vh 0 -1vh;
+  }
+  75% {
+    box-shadow: 0vh -3vh 0 -1vh, 2vh -2vh 0 -1vh, 3vh 0vh 0 -1vh, 2vh 2vh 0 -1vh, 0 3vh 0 -1vh, -2vh 2vh 0 0, -3vh 0vh 0 0.2vh, -2vh -2vh 0 0;
+  }
+  87.5% {
+    box-shadow: 0vh -3vh 0 0, 2vh -2vh 0 -1vh, 3vh 0 0 -1vh, 2vh 2vh 0 -1vh, 0 3vh 0 -1vh, -2vh 2vh 0 0, -3vh 0vh 0 0, -2vh -2vh 0 0.2vh;
+  }
+}
+
+
+
+@-webkit-keyframes Gradient {
+  0% {
+    left: 29%;
+    right: 0%;
+    background-position: 0% 50%;
+  }
+  25% {
+      left: 0%;
+      right: 29%;
+      /* width: 5%; */
+  }
+  50% {
+      left: 0;
+      right: 0;
+      /* width: 5%; */
+      /* width: 45%; */
+      /* background-position: 100% 50%; */
+  }
+  75% {
+      left: 0%;
+      right: 29%;
+      /* width: 5%; */
+  }
+  100% {
+      left: 29%;
+      right: 0%;
+      /* width: 5%; */
+      background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    left: 29%;
+    right: 0%;
+    background-position: 0% 50%;
+  }
+  25% {
+      left: 0%;
+      right: 29%;
+      /* width: 5%; */
+  }
+  50% {
+      left: 0;
+      right: 0;
+      /* width: 5%; */
+      /* width: 45%; */
+      /* background-position: 100% 50%; */
+  }
+  75% {
+      left: 0%;
+      right: 29%;
+      /* width: 5%; */
+  }
+  100% {
+    left: 29%;
+    right: 0%;
+    /* width: 5%; */
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    left: 29%;
+    right: 0%;
+    background-position: 0% 50%;
+  }
+  25% {
+      left: 0%;
+      right: 29%;
+      /* width: 5%; */
+  }
+  50% {
+      left: 0;
+      right: 0;
+      /* width: 5%; */
+      /* width: 45%; */
+      /* background-position: 100% 50%; */
+  }
+  75% {
+      left: 0%;
+      right: 29%;
+      /* width: 5%; */
+  }
+  100% {
+      left: 29%;
+      right: 0%;
+      /* width: 5%; */
+      background-position: 0% 50%;
+  }
+}
+
+
+
+
+@font-face {
+  font-family: 'Neo Sans TR Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans TR Regular'), url('./fonts/NeoSans TR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans TR Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans TR Light Italic'), url('./fonts/NeoSans Light Italic TR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans TR Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans TR Medium'), url('./fonts/NeoSans Medium TR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans TR Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans TR Black'), url('./fonts/NeoSans Black  TR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans TR Ultra Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans TR Ultra Italic'), url('./fonts/NeoSans UltraItalic TR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans  TR Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans  TR Italic'), url('./fonts/NeoSans Italic TR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans Light'), url('./fonts/neo-sans-light.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans  TR Medium Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans  TR Medium Italic'), url('./fonts/NeoSansMedium Italic TR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans  TR Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans  TR Bold'), url('./fonts/NeoSans Bold TR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans  TR Ultra';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans  TR Ultra'), url('./fonts/NeoSans UltraTR.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Neo Sans  TR Black Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('./fonts/Neo Sans  TR Black Italic'), url('./fonts/NeoSans Black Italic TR.woff') format('woff');
+  }
